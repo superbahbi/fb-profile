@@ -1,0 +1,42 @@
+.cover {
+    position: relative; 
+    left: 0; 
+    top: 0;
+    width: 940px;
+}
+.profile-pic {
+    position: absolute; 
+    left: 75px; 
+    top: 250px;
+    padding: 1px;
+    border: 3px solid #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+} 
+.space {
+    white-space: nowrap;
+}
+.about {
+    word-wrap: break-word;
+}
+.photo {
+width: 100px;
+height: 100px; /* optional */
+margin: 0 auto; /* centers */
+}
+.photo-table {
+     border: none;
+}
+.nav-status { 
+    color: #000000;
+    text-decoration: none;  
+}
+.nav-status:hover { 
+    color: #666666;  
+}
+@media (max-width: 480px) {
+.timeline{
+    display: block;
+}
+}
